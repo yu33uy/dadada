@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service
+  cloud:
+    config:
+      uri: http://config:8888
+      fail-fast: true
+      password: 33eb54f7-756a-45b8-a9fc-08e60ac5ed5c
+      username: user
